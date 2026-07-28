@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Design-Auswahl für die Website der KNM Bau GmbH.">
+  <title>Designs vergleichen | KNM Bau GmbH</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#0c1d33;--gold:#d8ad48;--cream:#f4f0e7;--white:#fff;--text:#182638;--muted:#667085}
+    *{box-sizing:border-box}body{margin:0;font-family:Manrope,Arial,sans-serif;color:var(--text);background:linear-gradient(135deg,#f7f4ee,#e9eef3);min-height:100vh}.wrap{width:min(1180px,calc(100% - 36px));margin:auto;padding:56px 0 80px}.top{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:55px}.top img{width:235px;background:var(--navy);padding:12px 16px}.top a{font-weight:800;color:var(--navy);text-decoration:none}.eyebrow{font-size:.76rem;font-weight:800;letter-spacing:.17em;text-transform:uppercase;color:#a67b16;margin:0 0 12px}.intro{max-width:760px;margin-bottom:42px}.intro h1{font-family:'Playfair Display',serif;font-size:clamp(2.7rem,6vw,5rem);line-height:1.03;color:var(--navy);margin:0 0 20px}.intro p{font-size:1.08rem;color:var(--muted);line-height:1.75}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{background:#fff;border:1px solid rgba(12,29,51,.12);box-shadow:0 18px 45px rgba(12,29,51,.08);overflow:hidden;transition:.25s}.card:hover{transform:translateY(-7px);box-shadow:0 26px 60px rgba(12,29,51,.14)}.preview{height:240px;position:relative;background-size:cover;background-position:center}.preview:after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(5,15,27,.75),transparent 65%)}.current{background-image:linear-gradient(90deg,rgba(5,15,27,.35),rgba(5,15,27,.08)),url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=900&q=80')}.premium{background-image:url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=900&q=80')}.clean{background-image:url('https://images.unsplash.com/photo-1487958449943-2429e8be8625?auto=format&fit=crop&w=900&q=80')}.badge{position:absolute;z-index:2;left:20px;top:20px;background:var(--gold);color:var(--navy);font-size:.72rem;font-weight:900;text-transform:uppercase;letter-spacing:.08em;padding:8px 11px}.body{padding:28px}.body h2{font-size:1.35rem;margin:0 0 10px;color:var(--navy)}.body p{color:var(--muted);line-height:1.65;min-height:80px}.btn{display:flex;align-items:center;justify-content:space-between;background:var(--navy);color:#fff;text-decoration:none;font-weight:800;padding:15px 17px;margin-top:22px}.btn span{color:var(--gold);font-size:1.3rem}.note{margin-top:35px;color:var(--muted);font-size:.88rem}.note strong{color:var(--navy)}
+    @media(max-width:900px){.grid{grid-template-columns:1fr}.card{display:grid;grid-template-columns:.85fr 1.15fr}.preview{height:100%}.body p{min-height:0}}@media(max-width:620px){.wrap{padding-top:30px}.top{align-items:flex-start;flex-direction:column}.top img{width:210px}.card{display:block}.preview{height:210px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="top">
+      <img src="../assets/logo.svg" alt="KNM Bau GmbH">
+      <a href="../">Zur aktuellen Website →</a>
+    </div>
+    <section class="intro">
+      <p class="eyebrow">Live-Vergleich</p>
+      <h1>Drei Designs. Eine starke Marke.</h1>
+      <p>Öffne jede Variante live, teste Navigation und Kontaktbereich und wechsle anschließend direkt zum nächsten Entwurf. Die aktuelle Website bleibt dabei vollständig unverändert.</p>
+    </section>
+    <section class="grid" aria-label="Website-Designs">
+      <article class="card">
+        <div class="preview current"><span class="badge">Aktueller Stand</span></div>
+        <div class="body"><h2>Design 0 – Klassisch</h2><p>Dunkles, seriöses Bauunternehmer-Design mit klarer Leistungsübersicht und Goldakzenten.</p><a class="btn" href="../">Live ansehen <span>→</span></a></div>
+      </article>
+      <article class="card">
+        <div class="preview premium"><span class="badge">Alternative 1</span></div>
+        <div class="body"><h2>Design 1 – Premium Architektur</h2><p>Großzügig, kontrastreich und hochwertig. Starker Fokus auf Bildwirkung und Markenpräsenz.</p><a class="btn" href="../design-1/">Live ansehen <span>→</span></a></div>
+      </article>
+      <article class="card">
+        <div class="preview clean"><span class="badge">Alternative 2</span></div>
+        <div class="body"><h2>Design 2 – Klar & vertrauenswürdig</h2><p>Helles, modernes Design mit schnellem Zugang zu Leistungen, Ablauf und Kontakt.</p><a class="btn" href="../design-2/">Live ansehen <span>→</span></a></div>
+      </article>
+    </section>
+    <p class="note"><strong>Tipp:</strong> In beiden Alternativdesigns befindet sich oben ein fixer Umschalter, mit dem du direkt zwischen allen Varianten wechseln kannst.</p>
+  </main>
+</body>
+</html>
