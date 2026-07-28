@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 150" role="img" aria-labelledby="t">
+<title id="t">KNM Bau GmbH</title>
+<rect width="620" height="150" fill="#10233f"/>
+<g fill="none" stroke="#d6ad4b" stroke-width="6" stroke-linejoin="round">
+<path d="M276 35l12-20 12 20 18-12-3 30h-54l-3-30z"/>
+</g>
+<text x="310" y="98" text-anchor="middle" font-family="Georgia,serif" font-size="48" letter-spacing="8" fill="#f4f0e7">KNM BAU GMBH</text>
+<text x="310" y="127" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" letter-spacing="3" fill="#d6ad4b">IHR BAUMEISTER MIT HANDSCHLAGQUALITÄT</text>
+</svg>
